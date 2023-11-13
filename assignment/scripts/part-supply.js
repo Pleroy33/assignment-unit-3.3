@@ -113,9 +113,12 @@ console.log(totalParts);
 //    "left over," and the value of 'boxesFilled' should reflect
 //    how many boxes were filled.
 console.log('9. Filling boxes with a "while" loop');
-
-
-
+parts = 572
+boxesFilled = 0
+while (parts > 6){parts = parts -7;
+  boxesFilled++;
+}
+console.log(boxesFilled, parts);
 
 // DO NOT MODIFY
 // Used for automated testing
